@@ -36,7 +36,7 @@ canvas {
   left: 0;
   z-index: 3;
   position: absolute;
-  /* animation: move 10s forwards;  */
+  animation: move 20s forwards; 
 }
 
 /* 星空css */
@@ -55,14 +55,14 @@ canvas {
 }
 /* button move*/
 @keyframes move {
-  0%    { opacity: 0; left: 0; top: 90%}
+  0%    { opacity: 0; left: 0; top: 10%; display: none;}
 
-  25%   { opacity: 0.2; left: 10%; top: 92%}
+  20%   { opacity: 0.2; left: 0; top: 90%; display: block;}
 
-  50%   { opacity: 0.4; left: 20%;  top: 88%}
+  40%   { opacity: 0.4; left: 10%; top: 85%; display: block;}
 
-  75%   { opacity: 0.6; left: 30%; top: 92%}
+  60%   { opacity: 0.8; left: 25%; top: 95%; display: block;}
 
-  100%  { opacity: 0.8; left: 45%; top: 90%}
+  100%  { opacity: 1; left: 45%; top: 90%; display: block;}
 
 }

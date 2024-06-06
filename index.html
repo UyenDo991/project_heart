@@ -2,10 +2,12 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <title>Happy Birthday</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;600&display=swap" rel="stylesheet">
     <link href="public/css/main.css" rel="stylesheet">
+    <link href="https://emoji-css.afeld.me/emoji.css" rel="stylesheet">
   </head>
   <style>
     .button {
@@ -20,13 +22,20 @@
       margin: 4px 2px;
       cursor: pointer;
     }
+    .em-balloon{
+      font-size: 50px;
+    }
+    .flip-horizontal {
+      transform: scaleX(-1);
+    }
     </style>
   <body>
     <div class="title">
       <!-- EDIT HERE -->
       <div class="STARDUST2">
-        <a href="">🎈</a>  
+        <i class="em em-balloon" aria-role="presentation" aria-label="BALLOON"></i>
         <a href="public/css/main.css" type="button" class="button"> Click vào đây đi</a>
+        <i class="em em-balloon flip-horizontal" aria-role="presentation" aria-label="BALLOON"></i>
       </div>
       <img class="img" src="./public/images/backgroundform1.jpg" alt="JUNO_OKYO" />
       <canvas id="pinkboard"></canvas>

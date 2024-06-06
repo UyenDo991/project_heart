@@ -1,37 +1,46 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;600&display=swap" rel="stylesheet">
-    <link href="public/css/main.css" rel="stylesheet">
-  </head>
-
-  <body>
-    <!-- <audio autoplay="autopaly">
-      <source src="renxi.mp3" type="audio/mp3" />
-    </audio> -->
-    <!-- 星空html -->
-    <!-- <div> -->
-    <div class="container2">
-      <div class="content">
-        <canvas id="universe"></canvas>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy Birthday</title>
+  <link rel="stylesheet" href="public/css/main_2.css">
+</head>
+<style>
+  .bg-form{
+    position: relative;
+    background-image: url(public/images/anhgackgroundfrom2.png);
+    width: 100%;
+    height: 99vh;
+  }
+</style>
+<body>
+  <div class="bg-form">
+    <div class="heart-canvas"></div>
+      <div class="background-img">
+        <div class="note">
+            <img src="public/images/anhkhungloichuc.png" alt="">
+            <div class="text-loichuc"> Gửi cô gái anh thương... </div>
+            <p class="text-1">- Chúc em sinh nhật vui vẻ !</p>
+            <p class="text-2">- Mong em vui vẻ mỗi ngày !</p>
+            <p class="text-3">- Mong em ăn no ngủ ngon !</p>
+            <p class="text-4">- Mỗi ước nguyện của em đều sẽ trở thành sự thật  !</p>
+          </div>
+        </div>
+        <div class="avt-box">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <div class="profile_avt">
+            <a href="">
+              <img src="public/images/1.jpg" alt="" title="" class="img-main"/>
+            </a>
+          </div>
+        </div>
       </div>
-    </div>
-    <!-- </div> -->
-    <div class="title">
-      <!-- EDIT HERE -->
-      <!-- <h3 class="STARDUST1">2022</h3>
-      <h1 class="STARDUST2">MT &amp; BN</h1>
-      <h3 class="STARDUST3">L O V E <strong>❤</strong> Y O U</h3> -->
-      <img class="img" src="./public/images/backgroundform1.jpg" alt="JUNO_OKYO" />
-      <canvas id="pinkboard"></canvas>
-    </div>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-    <script src="public/js/main.js"></script>
-    <script src="public/js/particle.js"></script>
-    <script src="public/js/universe.js"></script>
-  </body>
+      <button class="btn-click">Click</button>
+  </div>
+  <script src="public/js/main_2.js"></script>
+</body>
 </html>
