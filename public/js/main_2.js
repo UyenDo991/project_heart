@@ -17,7 +17,7 @@ const numSnowflakes = 100;
 const mainPhoto  = document.querySelector('.img-main');
 // tự động nhảy ảnh
 let i = 0;
-let imageNames = ["1.jpg", "2.jpg", "3.jpg", "4.jpg", "5.jpg"]; // Thay đổi danh sách tên hình ảnh tại đây
+let imageNames = ["qnhi1.jpg", "qnhi2.jpg", "qnhi3.jpg", "qnhi4.jpg", "qnhi5.jpg"]; // Thay đổi danh sách tên hình ảnh tại đây
 let slideshowTimeout;
 
 function slideshow() {
@@ -41,8 +41,8 @@ const btnClick = document.querySelector('.btn-click');
 const avt_box = document.querySelector('.avt-box');
 const note = document.querySelector('.note');
 btnClick.addEventListener('click', function () {
-  avt_box.style.left = '70%';
-  btnClick.style.left = '75%';
+  avt_box.style.left = '60%';
+  btnClick.style.left = '70%';
   note.style.display = "block";
 
 });
